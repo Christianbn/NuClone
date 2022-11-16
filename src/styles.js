@@ -61,5 +61,35 @@ export const styles = StyleSheet.create({
   detail:{
     padding: 20,
     paddingTop: 10
+  },
+  mainNav:{
+    flex:1,
+    justifyContent: 'center',
+    alignItems:'center',
+    flexDirection: 'row',
+    padding: 20,
+  },
+  mainBotao:{
+    borderRadius: 100,
+    height: '100%',
+    width: '22%',
+    backgroundColor: 'gray',
+    alignItems: 'center',
+    padding:20,
+    marginStart: 10
+  },
+  cardBotao:{
+    borderRadius: 10,
+    flexDirection: 'row',
+    backgroundColor: 'gray',
+    padding: 20
+  },
+  cardNovidade:{
+    borderRadius: 10,
+    flexDirection: 'row',
+    backgroundColor: 'gray',
+    padding: 20,
+    marginEnd: 20,
+    width: '40%'
   }
 });
